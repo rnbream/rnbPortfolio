@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Poppins', 'Verdana';
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+}
+header {
+    min-height: 100vh;
+    /*background-image: linear-gradient(rgba(20,20,20,0.69),rgba(20,20,20,0.69)),url(../img/);*/
+    background-position: center;
+    background-size: cover;
+  }
+
+.brand {
+  font-weight: bold;
+}
+.logo {
+    margin: 10px 0px;
+    height: 40px;
+  }
+.navcon {
+  background-color: #1c1c1c;
+}
+
+.header-intro {
+  padding-top: 150px;
+}
+
+
+
+.navitem {
+  text-transform: uppercase;
+  font-size: 90%;
+  transition: 0.15s;
+  font-weight: bold;
+}
+
+/* .navitem:hover {
+  border-bottom: 2px solid #e67e22;
+} */
+
+.header-text {
+  font-family: 'Poppins','Verdana';
+  background-color: transparent;
+
+}
+
+.prof {
+  width: 100%;
+  height: auto;
+  border-radius: 25px;;
+
+
+}
+
+.btn:link,
+.btn:visited {
+  border: 2px solid #1c1c1c;
+
+}
+.btn:hover,
+.btn:active {
+  transition: 0.15s;
+  color: #fff;
+  background-color: #1c1c1c;
+}
+
+/* SECTION 1 */
+.section1 {
+  min-height: 110vh;
+}
+
+.tools-used {
+  padding-top: 70px;
+  margin-bottom: 30px;
+}
+
+.cardcon {
+  border-radius: 50px;
+  cursor: pointer;
+  border: 2px solid #1c1c1c;
+}
+
+.cardcon:hover {
+  background-color: #1c1c1c;
+  color: #fff;
+  transition: 0.15s;
+}
+
+
+.card h3 {
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.card h4 {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 20px;
+  color: #e67e22;
+}
+
+.btn-card {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid #1c1c1c;
+  border-radius: 30px;
+  padding: 5px 0;
+  color: #555;
+}
+
+.btn-card:hover {
+  background-color: #1c1c1c;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.15s;
+}
+
+/* .card p {
+  font-size: 20px;
+}
+
+.card a:hover {
+  text-decoration: none;
+  color: #e67e22;
+} */
+
+.section2 {
+  min-height: 350vh;
+}
+
+.about-me {
+  margin-bottom: 30px;
+  padding-top: 50px;
+}
+
+.about-me-pic {
+  background-position: center;
+  background-size: cover;
+  border-radius: 12px;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+.OTC-name {
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+.OTC-p {
+  padding: 10px;
+}
+
+.school-name {
+  padding: 0 10px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card-detail h6 {
+  margin: 0px;
+  padding: 0px;
+  font-weight: 400;
+}
+
+/* TRAININGS AND CERTIFICATIONS */
+.btn-show-credential {
+  border: 1px solid #1c1c1c;
+  padding: 8px 20px;
+  border-radius: 30px;
+  color: #555;
+}
+.btn-show-credential:hover {
+  text-decoration: none;
+  color: blue;
+  border: 1px solid blue;
+}
+
+
+footer {
+  min-height: 10vh;
+
+}
+
+.ft {
+  font-size: 80%;
+  padding: 20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.ft2 {
+  font-size: 90%;
+  padding: 20px;
+}
+
+.ft2 i {
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.rtbutton i{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  font-size: 30px;
+  color: #e67e22;
+  z-index: 99;
+}
+
+
+
+
+
+/* mobile responsive */
+@media(max-width: 820px){
+  .navcon{
+    background-color: #1c1c1c;
+  }
+  .header-text {
+    text-align: center;
+  }
+  .ft2 {
+    font-size: 100%;
+    text-align: center;
+  }
+  
+  .ft2 i {
+    font-size: 30px;
+    justify-content: center;
+  }
+
+  .rtbutton i{
+    font-size: 20px;
+    right: 10px;
+  }
+
+  .about-me-pic {
+    width: 50%;
+    height: auto;
+  }
+
+  .OTC-p {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    width: 25%;
+    height: auto;
+
+  }
+
+  .header-intro {
+    margin-top: -50px;
+    margin-bottom: 50px;
+
+  }
+  .prof {
+    width: 50%;
+    height: auto;
+  }
+  }
+
+
+}
